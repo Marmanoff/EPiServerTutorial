@@ -11,10 +11,29 @@ namespace EPiServerTutorial1.Models.Pages
     public class StartPage : PageData
     {
         [Display(
-            Name = "Main body",
-            Description = "The main body will be shown in the main content area of the page, using the XHTML-editor you can insert for example text, images and tables.",
+            Name = "Main Body",
             GroupName = SystemTabNames.Content,
-            Order = 1)]
-        public virtual XhtmlString MainBody { get; set; }
+            Description = "This is my main body description",
+            Order = 1
+        )]
+
+        //Defines if this property should have a different value for each language
+        [CultureSpecific]
+
+        //Do we want the property to be visible in editor mode? false = no, true = yes
+        [ScaffoldColumn(true)]
+
+        //The property value can be a maximum of 255 characters, and the property has to be a string
+        [StringLength(255)]
+
+        //If false, this property cannot be edited by editors, if true it can.
+        [Editable(true)]
+
+        //Editors need to fill in this property before publishing the project
+        [Required]
+
+        //We can now search the EPiServer browser, using the information within MainBody to find what we want
+        [Searchable]
+        public virtual String MainBody { get; set; }
     }
 }
