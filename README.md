@@ -1,4 +1,4 @@
-# EPiServerTutorial
+# EPiServer Tutorial
 This repository is intended for educational purposes only. Each task will be linked to my Youtube EPiServer playlist for other developers
 to watch and learn from. The playlist can be found here [YouTube](https://www.youtube.com/playlist?list=PLRHLxW_l2Dw7BGb4IeG5llKZW9GFKmxLB)
 
