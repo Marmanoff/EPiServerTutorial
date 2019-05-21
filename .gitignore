@@ -810,6 +810,10 @@ packages/System.ValueTuple.4.5.0/THIRD-PARTY-NOTICES.TXT
 packages/System.ValueTuple.4.5.0/useSharedDesignerContext.txt
 packages/System.ValueTuple.4.5.0/version.txt
 EPiServerTutorial1/App_Data/EPiServerErrors.log.20190512.log
+<<<<<<< HEAD
 EPiServerTutorial1/App_Data/EPiServerErrors.log.20190514.log
 EPiServerTutorial1/App_Data/EPiServerErrors.log.20190516.log
 EPiServerTutorial1/App_Data/EPiServerErrors.log.20190517.log
+=======
+>>>>>>> parent of f054c09... EPiServer for Developers - 5# Generic types and View Models
+EPiServerTutorial1/App_Data/EPiServerErrors.log.20190519.log
