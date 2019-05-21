@@ -15,8 +15,8 @@ The tutorials are intended for people with atleast a basic understanding of the 
 ```
 
 ## Current project overview
+1. Installation [Youtube Installation Tutorial](https://www.youtube.com/watch?v=jrm470yAa1w)
 ```
-1. Installation https://www.youtube.com/watch?v=jrm470yAa1w
 2. Page types
 3. Property Attributes
 4. Content Properties
